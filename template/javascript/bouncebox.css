@@ -1,0 +1,37 @@
+/* The bouncing box */
+
+#bouncebox{
+	position: absolute;
+	background:url('images/box_bg.jpg') repeat-x center top #fcfcfc;
+	height:65px;
+	padding:20px;
+	margin-top:-10px;
+	top:1px;
+	left:400px;
+	padding-top:30px;
+	width:400px;
+	border:1px solid #fcfcfc;
+	color:#494848;
+	text-shadow:1px 1px 0 white;
+	font-family:Arial,Helvetica,sans-serif;
+	display:none;
+	z-index: 5000;
+}
+
+#bouncebox p{
+	font-size:11px;
+	/* background:url('images/warning.png') no-repeat 10px center; */
+	padding-left:90px;
+}
+
+#bouncebox p b{
+	font-size:16px;
+	display:block;
+}
+
+#bouncebox {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
